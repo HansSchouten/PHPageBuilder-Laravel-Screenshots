@@ -10,6 +10,8 @@ use Intervention\Image\Facades\Image;
 use PHPageBuilder\Theme;
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
+use Spatie\Browsershot\Browsershot;
+use Spatie\Browsershot\Exceptions\CouldNotTakeBrowsershot;
 
 class RenderBlockThumbs extends Command
 {
